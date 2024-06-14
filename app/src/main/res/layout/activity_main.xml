@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingVertical="20dp"
+    android:paddingHorizontal="20dp"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Lucky Number"
+        android:textSize="28sp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:paddingTop="20dp" />
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Please Enter Your Name"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:autofillHints="Please Enter Your Name"
+        android:layout_marginTop="100dp" />
+    <Button
+        android:id="@+id/buttonLuck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wish me a Luck!"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/dice" />
+</LinearLayout>
